@@ -1,0 +1,22 @@
+server:
+  port: 8083
+  servlet:
+    context-path: /
+swagger:
+  enabled: true
+  title: WordAnalysis 系统 FNLP服务测试
+  contact:
+    name: WordAnalysis-FNLPService地址
+    url: https://gitee.com/Erichan/EngineerCMS-FNLPPService
+  base-package: com.wordanalysis.fnlpservice
+
+spring:
+   application:
+    name: WordAnalysis-FNLPService
+eureka:
+  client: #客户端注册进eureka服务列表内
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    instance-id: fnlp-service
+    prefer-ip-address: true     #访问路径可以显示IP地址
