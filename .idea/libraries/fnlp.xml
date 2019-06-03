@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="fnlp">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../fnlp/out/artifacts/fnlp_jar/fnlp.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
